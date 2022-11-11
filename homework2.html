@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0 auto;
+        width: 800px;
+        background: lightgrey;
+        text-align: center;
+      }
+      .cities {
+        text-decoration: none;
+        text-align: left;
+        color: black;
+        padding: 0 3px;
+      }
+      .wrapperCities {
+        margin: 15px 0;
+      }
+      .mainCity {
+        margin-top: 20px;
+        font-size: 25px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      h2,
+      h1,
+      h3,
+      small {
+        text-align: center;
+        /* background: red; */
+      }
+      small {
+        display: block;
+        margin: 10px auto;
+      }
+      img {
+        margin: auto;
+        background: gold;
+      }
+      .extra {
+        margin: 40px 15px;
+      }
+      .days {
+        margin: 20px auto 0;
+        padding: 0;
+        font-size: 20px;
+      }
+      h4 {
+        font-size: 15px;
+      }
+      .colLeft {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="row wrapperCities">
+            <a href="" class="col cities">Lviv</a>
+            <a href="" class="col cities">Kyiv</a>
+            <a href="" class="col cities">Ivano-Frankivsk</a>
+            <a href="" class="col cities"></a>
+            <a href="" class="col cities"></a>
+            <a href="" class="col cities"></a>
+          </div>
+          <form class="row g-3">
+            <div class="col-auto">
+              <input
+                type="search"
+                class="form-control"
+                id="inputPassword2"
+                placeholder="enter your city"
+              />
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Search</button>
+            </div>
+          </form>
+        </nav>
+      </header>
+      <main>
+        <h2 class="mainCity">Amsterdam</h2>
+        <h1>21C</h1>
+        <small> Partly Cloudy H:23 L:12 </small>
+        <img src="" alt="weather icon" />
+        <aside>
+          <div class="row days">
+            <section class="col">
+              <h3 class="days">Mon</h3>
+              <h2>11/21</h2>
+            </section>
+            <section class="col">
+              <h3 class="days">Tue</h3>
+              <h2>11/21</h2>
+            </section>
+            <section class="col">
+              <h3 class="days">Wed</h3>
+              <h2>11/21</h2>
+            </section>
+            <section class="col">
+              <h3 class="days">Thu</h3>
+              <h2>11/21</h2>
+            </section>
+            <section class="col">
+              <h3 class="days">Fri</h3>
+              <h2>11/21</h2>
+            </section>
+            <section class="col">
+              <h3 class="days">Sat</h3>
+              <h2>11/21</h2>
+            </section>
+          </div>
+        </aside>
+      </main>
+      <aside>
+        <div class="row extra">
+          <div class="col">
+            <h4 class="colLeft">Air Quality 4</h4>
+            <h4 class="colLeft">Wind 19 km/h</h4>
+            <h4 class="colLeft">Humidity 47%</h4>
+            <h4 class="colLeft">Feels like 22C</h4>
+          </div>
+          <div class="col">
+            <h4 class="colRight">Sunset 21:55</h4>
+            <img src="" alt="sunset icon" />
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
